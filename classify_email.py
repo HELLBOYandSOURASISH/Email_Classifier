@@ -54,7 +54,7 @@ import keras
 
 # Load models
 model_FFNN = keras.models.load_model('spam_email_classifier_FFNN_model.h5')  # For a Keras model
-model_rf = joblib.load('spam_email_classifier_random_forest_model.pkl')  # For a Scikit-learn Logistic Regression model
+model_rf = joblib.load('spam_email_classifier_random_forest_model2.pkl')  # For a Scikit-learn Logistic Regression model
 model_xgb = joblib.load('spam_email_classifier_xgboost_model.pkl')  # For a Scikit-learn SVM model
 
 
